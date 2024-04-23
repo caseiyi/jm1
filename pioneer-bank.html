@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pioneer-bank.css">
+</head>
+<body>
+    <div class="first-page">
+        <div class="heading"><h1>
+            welcome to pioneer bank!
+        </h1>
+    </div>
+   <form action="#">
+    <div class="login-container">
+    <div class="login">
+        <label for="email">Email</label>
+        <input type="email" name="" id="email" placeholder="@gmail.com">
+    </div>
+    <div class="login">
+        <label for="password">Password</label>
+        <input type="password" name="" id="password" placeholder=".....">
+    </div>
+   
+   <button type="submit" id="login-btn">Login</button>
+</div>
+</form>
+    </div>
+    <div class="second-page">
+    <div class="second-page-container">
+        <div class="info-boxes">
+            <div class="box one">
+                <h3>deposit</h4>
+            <h4>$<span class="current-deposite">00
+            </span>
+            </h4>
+            </div>
+            <div class="box two">
+                <h3>withraw</h3>
+                <h4>$<span class="current-withraw">00</span></h4>
+            </div>
+            <div class="box three">
+        <h3>Balance <br>  BDT</h3>
+        <h4>
+            <span class="curr-balance"> 400
+        </span>
+        </h4>
+            </div>
+        </div>
+    </div>
+    <div class="second-page-container">
+        <div class="calc-box">
+            <div class="calcbox 1">
+                <h1>deposit</h1>
+                <input type="number"  id="deposit-amount" placeholder='amount you want to deposit' ;value=0 >
+                <button class="submit-btn" id="add-deposite" >Deposite</button>
+            </div>
+            <div class="calcbox 2">
+                <h1>withraw</h1>
+                <input type="number" name="" id="withraw-amount" placeholder="amount you want to withraw" value=0>
+                <button class="submit-btn" id="add-withraw" >Withraw</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="pioneer-bank.js"></script>
+</body>
+</html>
